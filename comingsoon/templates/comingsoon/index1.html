@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>::: Under Maintenance :::</title>
+    {% load static %}
+    <link href="{% static 'comingsoon/css/bootstrap.min.css' %}" rel="stylesheet">
+    <link href="{% static 'comingsoon/css/style.css' %}" rel="stylesheet">
+</head>
+<body>
+    <div class="container p-0">
+        <div class="logoPanel">
+            <a class="navbar-brand" href="#">
+                <img src="{% static 'comingsoon/images/Zurich Kotak Logo.png' %}" alt="logo">
+            </a>
+        </div>
+        <div class="main">
+            <div class="circle">
+                <div class="circle__inner">
+                    <div class="circle__wrapper">
+                        <div class="circle__content">
+                            <h2>Coming Soon</h2>
+                            <p style="color:#0076BE">We are excited to bring something new to you. Thank you for your patience. Please check back soon.</p>
+                            <p style="color:#0076BE">For any assistance please get in touch with us on</p>
+                            <div class="row email justify-content-center">
+                                <div class="col-md-12 col-lg-5 p-0">
+                                    <img src="{% static 'comingsoon/images/mail.png' %}" alt="Icon" class="img-fluid" />
+                                    care@kotak.com
+                                </div>
+                                <div class="col-md-12 col-lg-6 p-0">
+                                    <img src="{% static 'comingsoon/images/support.png' %}" alt="Icon" class="img-fluid" />
+                                    1800 266 4545 (Toll free)
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="{% static 'comingsoon/images/under_maintenance.svg' %}" alt="Image" class="img-fluid" />
+                </div>
+            </div>
+        </div>
+        <div class="text-center footerContent">
+            <!-- Footer content goes here -->
+        </div>
+    </div>
+</body>
+</html>
